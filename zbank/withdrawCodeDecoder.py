@@ -1,0 +1,1 @@
+testingCode = input("Enter code to decode: ")
