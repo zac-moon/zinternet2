@@ -21,6 +21,8 @@ def login():
     print(f"Login- {usercodeTry} - {accountNumberTry}")
     if usercodeTry == "zacmoon" and accountNumberTry =="436118":
         bankMenu("Zac Moon")
+    if usercodeTry == "a" and accountNumberTry =="s":
+        bankMenu("Test Account")
 
 
 loginBtn = tk.Button(root, text="Login",command=login)
